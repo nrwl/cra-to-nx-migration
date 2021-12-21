@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
+    "ui-button": "libs/ui-button",
     "webapp": "apps/webapp",
     "webapp-e2e": "apps/webapp-e2e"
   }

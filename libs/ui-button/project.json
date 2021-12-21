@@ -1,0 +1,23 @@
+{
+  "root": "libs/ui-button",
+  "sourceRoot": "libs/ui-button/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/ui-button/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/ui-button"],
+      "options": {
+        "jestConfig": "libs/ui-button/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}
